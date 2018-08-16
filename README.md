@@ -12,8 +12,8 @@ Qt 版本-雜湊驗證碼產生器
 先在 Linux Ubuntu 上面使用 C 跟 pthread 配合 OpenSSL，
 寫出一個可以從 cli 輸入檔案名稱的 checksum machine 之後，接著想著如何把它做成日常看到的 GUI 桌面程式。
 
-在研究了 GTK+ 跟 Qt 之後，決定使用 Qt，
-因此就接著學習 Qt 及 C++ 基礎語法，並把 C 語言版本的 porting 到 Qt 上，
+在研究了 GTK+ 跟 Qt 之後，決定使用 Qt 做出一個圖形化介面
+因此就接著學習 Qt 及 C++ 基礎語法，並把 C 語言版本的程式放到 Qt 上，
 把 pthread 改成 Qthread，配合 signal 及 slot 的語法，連接 UI 及後端邏輯，
 最後的成果就是這個小程式了。
 
